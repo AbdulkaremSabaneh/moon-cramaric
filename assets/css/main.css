@@ -10,15 +10,21 @@ a{
     text-decoration: none;
 }
 .header{
+  
+    padding:  23px 0;
+
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+.header .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
 
-}
-.logo{
-    padding: 23px;
-}
 .list ul{
     display: flex;
     flex-wrap: wrap;
